@@ -1,0 +1,52 @@
+
+<html>
+<head>
+<title>Jack Hall</title>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-32872583-3', 'auto');
+  ga('send', 'pageview');
+</script>
+<script type="text/x-mathjax-config">
+ MathJax.Hub.Config({
+    tex2jax: {
+     inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+  MathJax.Hub.Register.StartupHook("TeX Jax Ready",function () {
+  var TEX = MathJax.InputJax.TeX,
+      MML = MathJax.ElementJax.mml;
+  TEX.Definitions.macros.tooltip = "myToolTip";
+  TEX.Parse.Augment({
+    myToolTip: function (name) {
+    var arg = this.ParseArg(name), tip = this.ParseArg(name);
+    this.Push(MML.maction(arg,tip).With({actiontype: MML.ACTIONTYPE.TOOLTIP}));
+    }
+  });
+  });
+</script>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</head>
+<body style="background-color:#E5C19f">
+<b>Jack Hall</b><br>
+Assistant Professor<br><br>
+<i>email</i>: firstnamelastname at math dot arizona dot edu<br>
+<i>office</i>: ENR2 S349<br>
+<i>phone</i>: +1 520-621-0729<br>
+<i>interests</i>: moduli spaces, algebraic stacks, derived categories, formal geometry, and deformation theory.<br>
+<i>seminar</i>: <a href="http://websites.math.arizona.edu/ag-seminar/">homepage</a><br>
+<i>google</i>: 
+<a href="https://scholar.google.com.au/citations?user=RJbXwDMAAAAJ&hl=en">scholar profile</a><br>
+<i>arXiv</i>: <a href="https://arxiv.org/a/hall_j_1.html">listings</a><br>
+<i>orcid-id</i>: <a href="https://orcid.org/0000-0001-9136-7059">0000-0001-9136-7059</a>
+<!-- <h4>Current Teaching</h4> --!>
+<h4>Publications</h4>
+
+</body>
+
+</html>
